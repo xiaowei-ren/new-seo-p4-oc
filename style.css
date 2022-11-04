@@ -18,6 +18,13 @@ a:hover {
     cursor: pointer;
 }
 
+ul,li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -282,7 +289,9 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
-
+#bloc-0 {
+    box-sizing: border-box;
+}
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -677,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -736,7 +745,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #333 !important;
+    font-size: 20px;
 }
 
 .portfolio-thumb {
@@ -775,12 +785,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #0f0f0f!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #0f0f0f!important;
 }
 
 .btn-atomic-tangerine:hover {
