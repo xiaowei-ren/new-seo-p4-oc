@@ -842,6 +842,13 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/texture-paper.png");
+    opacity: 0.7;
+}
+
+.col-sm-12-text {
+    background-color: #221c1c;
+    opacity: 0.9;
+    padding: 15px 0;
 }
 
 .bg-lines-h2-bg {
