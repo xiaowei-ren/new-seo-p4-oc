@@ -1912,6 +1912,7 @@ blockquote.pull-right small:after {
 }
 
 address {
+    color: black;
     margin-bottom: 20px;
     font-style: normal;
     line-height: 1.42857143
